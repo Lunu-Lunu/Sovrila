@@ -4,6 +4,13 @@ tadimor_superregion = {
 	dermali_region
 }
 
+dragons_head_superregion = {
+	dragons_snout_region
+	dragons_eye_region
+	dragons_crown_region
+	dragons_jaw_region
+}
+
 
 
 

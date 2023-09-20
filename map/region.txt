@@ -20,6 +20,27 @@ dermali_region = {
 	}
 }
 
+dragons_snout_region = {
+	areas = {
+		dragons_snout_area
+	}
+}
+dragons_eye_region = {
+	areas = {
+		dragons_eye_area
+	}
+}
+dragons_jaw_region = {
+	areas = {
+		dragons_jaw_area
+	}
+}
+dragons_crown_region = {
+	areas = {
+		dragons_crown_area
+	}
+}
+
 
 
 
