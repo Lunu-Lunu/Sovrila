@@ -1,0 +1,8 @@
+#
+
+guarantee = {
+	first = A18
+	second = A20
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}

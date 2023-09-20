@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = medium_spiritualist
+primary_culture = pemrikan
+capital = 130
+religious_school = wraith_spirit_1
+
+1380.1.1 = {
+	monarch = {
+		name = "Random Ruler"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

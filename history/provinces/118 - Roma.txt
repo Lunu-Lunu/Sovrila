@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A09
+controller = A09
+add_core = A09
+culture = tisinian
+religion = medium_spiritualist
+capital = "Imu"
+trade_goods = copper
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

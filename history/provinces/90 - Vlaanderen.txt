@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A02
+controller = A02
+add_core = A02
+ culture = imuian
+religion = medium_spiritualist
+capital = "Tupe"
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4

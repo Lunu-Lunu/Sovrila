@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A31
+controller = A31
+add_core = A31
+culture = nealdan
+religion = natures_aura
+capital = "placeholder"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3

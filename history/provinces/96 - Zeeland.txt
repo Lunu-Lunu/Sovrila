@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A01
+controller = A01
+add_core = A01
+ culture = visinian
+religion = medium_spiritualist
+capital = "Ziluim"
+trade_goods = paper
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A35
+controller = A35
+add_core = A35
+culture = nealdan
+religion = natures_aura
+capital = "placeholder"
+trade_goods = copper
+hre = no
+base_tax = 3
+base_production = 5
+base_manpower = 5

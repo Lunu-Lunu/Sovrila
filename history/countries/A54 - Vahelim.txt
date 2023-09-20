@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = natures_aura
+primary_culture = agasertan
+capital = 346
+
+1380.1.1 = {
+	monarch = {
+		name = "Random Ruler"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

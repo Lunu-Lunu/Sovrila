@@ -1,0 +1,118 @@
+#
+
+tumurian_ideas = {
+	start = {
+		global_tax_modifier = 0.1
+		naval_morale = 0.1
+	}
+	
+	bonus = {
+		global_colonial_growth = 20
+	}
+	
+	trigger = {
+		culture_group = tumurian
+	}
+	free = yes
+	
+	tumurian_idea_1 = {
+		land_maintenance_modifier = -0.1
+	}
+	tumurian_idea_2 = {
+		tolerance_own = 2
+	}
+	tumurian_idea_3 = {
+		core_creation = -0.1
+	}
+	tumurian_idea_4 = {
+		adm_advisor_cost = -0.15
+		governing_capacity_modifier = 0.05
+	}
+	tumurian_idea_5 = {
+		trade_efficiency = 0.15
+	}
+	tumurian_idea_6 = {
+		navy_tradition = 1
+	}
+	tumurian_idea_7 = {
+		global_own_trade_power = 0.2
+	}
+}
+
+tavrikan_ideas = {
+	start = {
+		idea_cost = -0.05
+		global_unrest = -2
+	}
+	
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	
+	trigger = {
+		culture_group = tavrikan
+	}
+	free = yes
+	
+	tavrikan_idea_1 = {
+		tolerance_heretic = 2
+		relation_with_heretics = 15
+	}
+	tavrikan_idea_2 = {
+		production_efficiency = 0.1
+	}
+	tavrikan_idea_3 = {
+		merchants = 1
+	}
+	tavrikan_idea_4 = {
+		land_morale = 0.1
+	}
+	tavrikan_idea_5 = {
+		trade_steering = 0.15
+	}
+	tavrikan_idea_6 = {
+		defensiveness = 0.15
+	}
+	tavrikan_idea_7 = {
+		infantry_cost = -0.1
+	}
+}
+
+bhangan_ideas = {
+	start = {
+		hostile_attrition = 1
+		tolerance_heathen = 1
+	}
+	
+	bonus = {
+		defensiveness = 0.15
+	}
+	
+	trigger = {
+		culture_group = bhangan
+	}
+	free = yes
+	
+	bhangan_idea_1 = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	bhangan_idea_2 = {
+		light_ship_cost = -0.15
+	}
+	bhangan_idea_3 = {
+		manpower_in_culture_group_provinces = 0.15
+	}
+	bhangan_idea_4 = {
+		improve_relation_modifier = 0.2
+	}
+	bhangan_idea_5 = {
+		inflation_action_cost = -0.33
+	}
+	bhangan_idea_6 = {
+		development_cost = -0.05
+	}
+	bhangan_idea_7 = {
+		shock_damage_received = -0.05
+	}
+}

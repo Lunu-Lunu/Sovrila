@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A05
+controller = A05
+add_core = A05
+ culture = imuian
+religion = medium_spiritualist
+capital = "Bului"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 4

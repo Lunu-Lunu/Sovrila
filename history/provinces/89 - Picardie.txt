@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A02
+controller = A02
+add_core = A02
+ culture = imuian
+religion = medium_spiritualist
+capital = "Jibu'mii"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3

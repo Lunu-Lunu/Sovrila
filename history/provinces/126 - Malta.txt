@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A09
+controller = A09
+add_core = A09
+culture = tisinian
+religion = medium_spiritualist
+capital = "Multu"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3

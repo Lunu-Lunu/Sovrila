@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A11
+controller = A11
+add_core = A11
+culture = dermalian
+religion = medium_spiritualist
+capital = "Dermali"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3

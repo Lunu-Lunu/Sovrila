@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A30
+controller = A30
+add_core = A30
+culture = itsan
+religion = natures_aura
+capital = "placeholder"
+trade_goods = grain
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 4

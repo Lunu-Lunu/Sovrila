@@ -1,0 +1,1042 @@
+#
+
+druid_group = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+
+	natures_aura = {
+		color = { 0 200 64 }
+		icon = 1
+		
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_heretic = 3
+			tolerance_heathen = 1
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			tolerance_own = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		hre_religion = no
+
+		has_patriarchs = yes
+
+		orthodox_icons = { # Druidic Rituals
+			flower_ritual = {
+				global_unrest = -3
+				build_cost = -0.1
+
+				allow = { always = yes }
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = {
+							calc_true_if = {
+								all_owned_province = {
+									unrest = 1
+								}
+								amount = 2
+							}
+						}
+					}
+					modifier = {
+						factor = 3
+						calc_true_if = {
+							all_owned_province = {
+								unrest = 1
+							}
+							amount = 5
+						}
+					}
+				}
+			}
+			tree_ritual = {
+				defensiveness = 0.2
+				shock_damage_received = -0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+			grass_ritual = {
+				global_manpower_modifier = 0.1
+				movement_speed = 0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+			bush_ritual = {
+				ae_impact = -0.1
+				warscore_cost_vs_other_religion = -0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0.5
+				}
+			}
+			coral_ritual = {
+				naval_morale = 0.1
+				ship_durability = 0.1
+
+				allow = {
+					any_owned_province = {
+						has_port = yes
+					}
+				}
+				ai_will_do = {
+					factor = 0.5
+				}
+			}
+			mangrove_ritual = {
+				development_cost = -0.1
+				naval_attrition = -0.1
+
+				allow = {
+					always = no #change to requiring a mangrove province
+				}
+				ai_will_do = {
+					factor = 0
+				}
+			}
+			mushroom_ritual = {
+				land_attrition = -0.1
+				manpower_recovery_speed = 0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+		}
+
+		on_convert = {
+			change_religion = natures_aura
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { BOTANIA }
+	}
+	mangrove = {
+		color = { 216 216 216 }
+		icon = 4
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_heretic = 3
+			tolerance_heathen = 1
+			naval_attrition = -0.25
+		}
+		country_as_secondary = {
+			naval_attrition = -0.25
+			tolerance_own = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = mangrove
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { EBONY }
+	}
+	mushroom = {
+		color = { 180 60 60 }
+		icon = 5
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_heretic = 3
+			tolerance_heathen = 1
+			land_attrition = -0.25
+		}
+		country_as_secondary = {
+			land_attrition = -0.25
+			tolerance_own = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = mushroom
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { FLORAL }
+	}	
+}
+
+magic_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+
+	blood_worship = {
+		color = { 128 0 0 }
+		icon = 2
+
+		allowed_conversion = {
+
+		}
+		country = {
+			infantry_power = 0.15
+			manpower_recovery_speed = 0.1
+			diplomatic_reputation = -2
+		}
+		country_as_secondary = {
+			infantry_power = 0.1
+			diplomatic_reputation = -1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = blood_worship
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { LEECHWORSHIP }
+	}
+	source_worship = {
+		color = { 128 0 128 }
+		icon = 9
+
+		allowed_conversion = {
+
+		}
+		country = {
+			reinforce_speed = 0.15
+			adm_tech_cost_modifier = -0.1
+		}
+		country_as_secondary = {
+			reinforce_speed = 0.15
+			global_manpower_modifier = 0.1
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = source_worship
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { MANAWORSHIP }
+	}
+}
+
+celestial_group = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+	astral_worship = {
+		color = { 80 80 240 }
+		icon = 10
+		religious_reforms = yes
+		reform_tooltip = SKY_WORSHIP_REFORM_TOOLTIP
+
+		allowed_conversion = {
+
+		}
+		country = {
+			movement_speed = 0.1
+			build_cost = -0.1
+			global_heretic_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			build_cost = -0.1
+			build_time = -0.1
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = astral_worship
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { VOIDWORSHIP }
+	}
+	celestialism = {
+		color = { 44 184 136 }
+		icon = 11
+		religious_reforms = yes
+		reform_tooltip = SKY_WORSHIP_REFORM_TOOLTIP
+
+		allowed_conversion = {
+
+		}
+		country = {
+			prestige_decay = -0.01
+			global_tax_modifier = 0.1
+			global_heretic_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			prestige_decay = -0.01
+			global_tax_modifier = 0.1
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = celestialism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { LIGHTLESSSKY }
+	}
+	sun_worship = {
+		color = { 224 200 40 }
+		icon = 12
+		religious_reforms = yes
+		reform_tooltip = SKY_WORSHIP_REFORM_TOOLTIP
+
+		allowed_conversion = {
+
+		}
+		country = {
+			governing_capacity_modifier = 0.1
+			reform_progress_growth = 0.1
+			global_heretic_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			governing_capacity_modifier = 0.1
+			reform_progress_growth = 0.1
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = sun_worship
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { SOLARECLIPSE }
+	}
+	moon_worship = {
+		color = { 160 160 160 }
+		icon = 13
+		religious_reforms = yes
+		reform_tooltip = SKY_WORSHIP_REFORM_TOOLTIP
+
+		allowed_conversion = {
+
+		}
+		country = {
+			naval_morale = 0.1
+			navy_tradition = 1
+			global_heretic_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			navy_tradition = 1
+			global_ship_cost = -0.1
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = moon_worship
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { LUNARECLIPSE }
+	}
+}
+
+spiritualist_group = {
+	defender_of_faith = yes
+	can_form_personal_unions = no
+
+	religious_schools = {
+		wraith_spirit_1 = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = wraith_spirit_1_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = wraith_spirit_1_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = wraith_spirit_1_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			hostile_attrition = 1
+			defensiveness = 0.1
+		}
+		poltergeist_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = poltergeist_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = poltergeist_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = poltergeist_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			build_time = -0.1
+			siege_ability = 0.1
+		}
+		revenant_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = revenant_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = revenant_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = revenant_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			shock_damage = 0.1
+			reinforce_cost_modifier = -0.1
+		}
+		guide_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = guide_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = guide_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = guide_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			diplomats = 1
+			ae_impact = -0.1
+		}
+		deadlord_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = deadlord_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = deadlord_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = deadlord_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			discipline = 0.05
+			global_unrest = -2
+		}
+
+		skywhale_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = skywhale_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = skywhale_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = skywhale_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			land_morale = 0.1
+			prestige_decay = -0.01
+		}
+		zephyr_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = zephyr_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = zephyr_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = zephyr_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			movement_speed = 0.1
+			idea_cost = -0.1
+		}
+		seraph_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = seraph_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = seraph_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = seraph_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			missionaries = 1
+			global_missionary_strength = 0.02
+		}
+		pegasus_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = pegasus_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = pegasus_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = pegasus_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			cavalry_shock = 0.35
+			army_tradition = 0.5
+		}
+
+		goldhog_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = goldhog_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = goldhog_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = goldhog_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			global_trade_goods_size_modifier = 0.1
+			monthly_gold_inflation_modifier = -0.25
+		}
+		wrathflame_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = wrathflame_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = wrathflame_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = wrathflame_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			fire_damage = 0.1
+			mil_tech_cost_modifier = -0.05
+		}
+		wailbeast_spirit = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				dip_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = wailbeast_spirit_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				dip_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = wailbeast_spirit_modifier duration = 7300 }
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = wailbeast_spirit_modifier
+
+			picture = "GFX_icon_muslim_school_hanafi"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			backrow_artillery_damage = 0.15
+			trade_steering = 0.1
+		}
+		
+	}
+	
+	medium_spiritualist = {
+		color = { 192 160 192 }
+		icon = 6
+
+		allowed_conversion = {
+
+		}
+		country = {
+			build_cost = -0.1
+			war_exhaustion = -0.05
+		}
+		country_as_secondary = {
+			build_cost = -0.05
+			development_cost = -0.05
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = medium_spiritualist
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { EXTRAPLANAR_SPIRITUALIST }
+	}
+	nether_spiritualist = {
+		color = { 192 64 64 }
+		icon = 7
+
+		allowed_conversion = {
+
+		}
+		country = {
+			warscore_cost_vs_other_religion = -0.1
+			global_prov_trade_power_modifier = 0.1
+		}
+		country_as_secondary = {
+			warscore_cost_vs_other_religion = -0.1
+			global_prov_trade_power_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+			local_tolerance_of_heretics = -1
+			local_tolerance_of_heathens = -2
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = nether_spiritualist
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { BLAZING_SPIRITUALIST }
+	}
+	aether_spiritualist = {
+		color = { 200 200 64 }
+		icon = 8
+
+		allowed_conversion = {
+
+		}
+		country = {
+			culture_conversion_cost = -0.1
+			legitimacy = 1
+			republican_tradition = 0.3
+			devotion = 1
+			horde_unity = 1
+		}
+		country_as_secondary = {
+			culture_conversion_cost = -0.1
+			prestige_decay = -0.01
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = aether_spiritualist
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { CLOUD_SPIRITUALIST }
+	}
+}
+
+irreligious_group = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+
+	godless = {
+		color = { 100 100 100 }
+		icon = 3
+
+		allowed_conversion = {
+
+		}
+		country = {
+			all_power_cost = -0.025
+		}
+		country_as_secondary = {
+			all_power_cost = -0.025
+		}
+		province = {
+			local_missionary_strength = 0.03
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = godless
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { ANTITHEIST }
+	}
+	technophilosophy = {
+		color = { 180 120 180 }
+		icon = 14
+
+		allowed_conversion = {
+
+		}
+		country = {
+			technology_cost = -0.05
+			production_efficiency = 0.1
+			tolerance_heretic = 3
+			tolerance_heathen = -1
+		}
+		country_as_secondary = {
+			technology_cost = -0.05
+			idea_cost = -0.05
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = technophilosophy
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
+
+		heretic = { LUDDITE }
+	}
+}

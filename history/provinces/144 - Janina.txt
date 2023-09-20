@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A08
+controller = A08
+add_core = A08
+culture = tisinian
+religion = medium_spiritualist
+capital = "Ejiu"
+trade_goods = copper
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

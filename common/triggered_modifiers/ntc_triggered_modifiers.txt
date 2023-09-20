@@ -1,0 +1,16 @@
+
+dermali_agreement_A18 = {
+	potential = {
+		tag = A18
+	}
+
+	trigger = {
+		has_guaranteed = A20
+		331 = {
+			has_active_triggered_province_modifier = dermali_agreement
+		}
+	}
+
+	inflation_reduction = -0.1
+	global_tax_income = 24
+}

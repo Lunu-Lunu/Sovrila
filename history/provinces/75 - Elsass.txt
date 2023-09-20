@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A16
+controller = A16
+add_core = A16
+culture = mavrolic
+religion = medium_spiritualist
+capital = "Gisaravrika"
+trade_goods = silk
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 5

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A06
+controller = A06
+add_core = A06
+ culture = visinian
+religion = medium_spiritualist
+capital = "Inibe"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 4

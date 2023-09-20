@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 10
+technology_group = western
+religion = source_worship
+primary_culture = kyakaini
+capital = 174
+add_accepted_culture = yodhani
+
+1380.1.1 = {
+	monarch = {
+		name = "Maw"
+		dynasty = "Aaung"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}

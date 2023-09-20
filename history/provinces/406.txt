@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A55
+controller = A55
+add_core = A55
+culture = agayuman
+religion = natures_aura
+capital = "placeholder"
+trade_goods = fish
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 5

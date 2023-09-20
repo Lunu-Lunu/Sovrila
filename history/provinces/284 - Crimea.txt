@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A33
+controller = A33
+add_core = A33
+culture = muagi
+religion = aether_spiritualist
+capital = "placeholder"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 3

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A13
+controller = A13
+add_core = A13
+culture = mavrolic
+religion = medium_spiritualist
+capital = "Dovrem"
+trade_goods = silk
+hre = no
+base_tax = 4
+base_production = 5
+base_manpower = 4

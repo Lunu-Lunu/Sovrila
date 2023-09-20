@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A57
+controller = A57
+add_core = A57
+culture = qrovian
+religion = natures_aura
+capital = "placeholder"
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 5

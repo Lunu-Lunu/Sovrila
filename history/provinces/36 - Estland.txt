@@ -1,0 +1,16 @@
+# Placeholder
+
+discovered_by = western
+discovered_by = western
+owner = A22
+controller = A22
+add_core = A22
+add_core = A21
+culture = romvodalian
+religion = medium_spiritualist
+capital = "placeholder"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

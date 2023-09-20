@@ -1,0 +1,14 @@
+dermali_agreement = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			tag = A20
+			guaranteed_by = A18
+		}
+	}
+
+	trade_goods_size_modifier = -0.5
+	prestige = -0.5
+}

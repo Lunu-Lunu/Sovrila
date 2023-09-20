@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A53
+controller = A53
+add_core = A53
+culture = nadralian
+religion = aether_spiritualist
+capital = "Tumval"
+trade_goods = cloth
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 5

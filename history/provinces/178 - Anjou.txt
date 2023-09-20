@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A49
+controller = A49
+add_core = A49
+culture = tikekyanian
+religion = source_worship
+capital = "placeholder"
+trade_goods = cloth
+hre = no
+base_tax = 7
+base_production = 5
+base_manpower = 5

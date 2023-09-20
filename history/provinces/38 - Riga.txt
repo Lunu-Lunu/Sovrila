@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A21
+controller = A21
+add_core = A21
+culture = romvodalian
+religion = medium_spiritualist
+capital = "Romvod"
+trade_goods = cloth
+hre = no
+base_tax = 7
+base_production = 6
+base_manpower = 5

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A28
+controller = A28
+add_core = A28
+culture = itsan
+religion = natures_aura
+capital = "placeholder"
+trade_goods = wool
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2

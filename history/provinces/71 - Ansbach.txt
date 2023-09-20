@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A14
+controller = A14
+add_core = A14
+culture = mavrolic
+religion = medium_spiritualist
+capital = "Padvon"
+trade_goods = silk
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 20
+technology_group = western
+religion = aether_spiritualist
+primary_culture = muagi
+capital = 284
+religious_school = pegasus_spirit
+
+1380.1.1 = {
+	monarch = {
+		name = "Random Ruler"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A45
+controller = A45
+add_core = A45
+culture = yodhani
+religion = natures_aura
+capital = "placeholder"
+trade_goods = iron
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3

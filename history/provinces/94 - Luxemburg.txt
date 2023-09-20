@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A03
+controller = A03
+add_core = A03
+ culture = visinian
+religion = medium_spiritualist
+capital = "Lusemtup"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2

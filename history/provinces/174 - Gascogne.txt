@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A47
+controller = A47
+add_core = A47
+culture = kyakaini
+religion = source_worship
+capital = "placeholder"
+trade_goods = naval_supplies
+hre = no
+base_tax = 5
+base_production = 7
+base_manpower = 7

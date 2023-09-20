@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A26
+controller = A26
+add_core = A26
+culture = muaji
+religion = aether_spiritualist
+capital = "placeholder"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 5
+base_manpower = 6

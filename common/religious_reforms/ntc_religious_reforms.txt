@@ -1,0 +1,176 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# ai_will do does not actually determine weighting, but AI will not pick an idea with ai_will_do = 0
+# ROOT = country picking the idea
+# groups set to colonial=yes will be higher prioritized by the AI when spending power
+
+astral_worship_reforms = {
+	trigger = {
+		religion = astral_worship
+	}	
+
+	can_buy_idea = {
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		calc_true_if = {
+			all_owned_province = {
+				has_owner_religion = no
+				is_core = ROOT
+			}
+			amount = 5
+		}
+		NOT = { overextension_percentage = 0.01 }
+	}
+	
+	astral_worship_reform_1 = { # Star Charts
+		trade_range_modifier = 0.15
+		naval_attrition = -0.1
+	}
+	astral_worship_reform_2 = { # Constellation Interpretation
+		idea_cost = -0.05
+		tolerance_own = 1
+	}
+	astral_worship_reform_3 = { # Star Fortune Tellers
+		land_morale = 0.1
+	}
+	astral_worship_reform_4 = { # Void-Fear
+		shock_damage_received = -0.1
+	}
+	astral_worship_reform_5 = { # Calendars
+		global_tax_modifier = 0.15
+	}	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+celestialism_reforms = {
+	trigger = {
+		religion = celestialism
+	}	
+
+	can_buy_idea = {
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		calc_true_if = {
+			all_owned_province = {
+				has_owner_religion = no
+				is_core = ROOT
+			}
+			amount = 5
+		}
+		NOT = { overextension_percentage = 0.01 }
+	}
+	
+	celestialism_reform_1 = { # Sun Warriors
+		shock_damage = 0.1
+	}
+	celestialism_reform_2 = { # Moon Warriors
+		naval_morale = 0.1
+		global_sailors_modifier = 0.15
+	}
+	celestialism_reform_3 = { # Star Warriors
+		land_morale = 0.1
+		global_manpower_modifier = 0.15
+	}
+	celestialism_reform_4 = { # Weather Interpretation
+		technology_cost = -0.05
+	}
+	celestialism_reform_5 = { # Celestial Idols
+		prestige = 1
+	}	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+sun_worship_reforms = {
+	trigger = {
+		religion = sun_worship
+	}	
+
+	can_buy_idea = {
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		calc_true_if = {
+			all_owned_province = {
+				has_owner_religion = no
+				is_core = ROOT
+			}
+			amount = 5
+		}
+		NOT = { overextension_percentage = 0.01 }
+	}
+	
+	sun_worship_reform_1 = { # Solar Knights
+		shock_damage = 0.05
+		shock_damage_received = -0.05
+	}
+	sun_worship_reform_2 = { # Authority of the Sun
+		max_absolutism = 10
+		global_unrest = -2
+	}
+	sun_worship_reform_3 = { # The Sun's Legions
+		land_forcelimit_modifier = 0.2
+		land_maintenance_modifier = -0.05
+	}
+	sun_worship_reform_4 = { # The Glorious Sun
+		core_creation = -0.15
+	}
+	sun_worship_reform_5 = { # Beauty of the Sun
+		monthly_splendor = 2
+	}	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+moon_worship_reforms = {
+	trigger = {
+		religion = moon_worship
+	}	
+
+	can_buy_idea = {
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		calc_true_if = {
+			all_owned_province = {
+				has_owner_religion = no
+				is_core = ROOT
+			}
+			amount = 5
+		}
+		NOT = { overextension_percentage = 0.01 }
+	}
+	
+	moon_worship_reform_1 = { # Cheaper Ship Designs
+		global_ship_cost = -0.1
+	}
+	moon_worship_reform_2 = { # Abundance of Shipwrights
+		naval_forcelimit_modifier = 0.25
+		global_ship_repair = 0.1
+	}
+	moon_worship_reform_3 = { # Naval Glorification
+		prestige_from_naval = 0.5
+		naval_tradition_from_battle = 0.5
+	}
+	moon_worship_reform_4 = { # Lunar Navy
+		naval_maintenance_modifier = -0.1
+		ship_durability = 0.1
+	}
+	moon_worship_reform_5 = { # Sea Trade
+		trade_steering = 0.25
+		trade_range_modifier = 0.15
+	}	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+

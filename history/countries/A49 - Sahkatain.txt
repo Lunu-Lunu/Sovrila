@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 10
+technology_group = western
+religion = source_worship
+primary_culture = tikekyanian
+capital = 178
+add_accepted_culture = bisanadi
+
+1380.1.1 = {
+	monarch = {
+		name = "Random Ruler"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

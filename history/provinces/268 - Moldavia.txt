@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A39
+controller = A39
+add_core = A39
+culture = mati
+religion = natures_aura
+capital = "placeholder"
+trade_goods = fur
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3

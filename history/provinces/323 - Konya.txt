@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A51
+controller = A51
+add_core = A51
+culture = bisanadi
+religion = natures_aura
+capital = "placeholder"
+trade_goods = wool
+hre = no
+base_tax = 5
+base_production = 3
+base_manpower = 4

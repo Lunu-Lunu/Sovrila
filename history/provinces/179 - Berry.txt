@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A49
+controller = A49
+add_core = A49
+culture = bisanadi
+religion = natures_aura
+capital = "placeholder"
+trade_goods = fish
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 2

@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A11
+controller = A11
+add_core = A11
+culture = pemrikan
+religion = medium_spiritualist
+capital = "placeholder"
+trade_goods = glass
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4

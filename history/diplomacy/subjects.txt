@@ -1,0 +1,43 @@
+#
+
+vassal = {
+	first = A07
+	second = A09
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = A29
+	second = A30
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+union = {
+	first = A47
+	second = A48
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+march = {
+	first = A49
+	second = A50
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = A49
+	second = A51
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = A49
+	second = A52
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}

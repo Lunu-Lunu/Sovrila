@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A10
+controller = A10
+add_core = A10
+culture = dermalian
+religion = medium_spiritualist
+capital = "placeholder"
+trade_goods = iron
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3

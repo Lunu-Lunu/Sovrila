@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A11
+controller = A11
+add_core = A11
+culture = dermalian
+religion = medium_spiritualist
+capital = "Lavrina"
+trade_goods = gems
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 6

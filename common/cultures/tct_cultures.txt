@@ -1,0 +1,178 @@
+#
+tumurian = {
+	graphical_culture = westerngfx
+	
+	visinian = {
+		province = { local_tax_modifier = 0.1 }
+		primary = A01
+	}
+	imuian = {
+		province = { local_production_efficiency = 0.1 }
+		primary = A02
+	}
+	tisinian = {
+		province = { local_manpower_modifier = 0.1 }
+		primary = A08
+	}
+	tevulian = {
+		province = { local_defensiveness = 0.1 }
+		primary = A27
+	}
+	male_names = {
+		Talii "Te'inum" Tultusu Bumjepiu Mimi "Eppe'ik" "Eil'um" Iltsje Elii Emzum Emi
+		Veuk Vuinbisbu Pystet "Pe'liv" "Eim'ik" Juinbki Jubitu Jiust "Je'uin" "Jiu'is"
+		Kistiuuin "Ku'el" Keini Liumewyk Mupinu "Mu'tein" Mitiil Inibiluu Ikki Iluv
+		Jii Umilv Teuini Tsulliinp Tsjitte Tilemuin Tuki Ul'ik Ubki Uiniki Utti
+		Wij Wimzel Wiptilt Wijum "Wyt'uim" Ypi
+	}
+	female_names = {
+		"Talte'tiinu" Tat Taliu Elisutet Vikel Pisliinpu Juliuinu Kistiine Kyinke "Mu'ije"
+		"Ue'mtsje" Iintsje Stiine Sesiliu "Sju'litte" Titiu Temu Tijmt Wittel
+	}
+	dynasty_names = {
+		Tatmeinu Tabbumutalmeintiut Tuimsmu Tiulset Tlije Teiniinpu
+		"Tiinpe'smu" Tiliet Tiliiinpu Tim Tik Buti Miuwumu Muk "Mi'ksein" Miiniu
+		Ememu Eisiinpu Emmiu Estel Eseins Vemme Pulumu Umke "Ulte'tsmu" Uiinpsmu
+		Jujik Jeeve Jelbkumu "Jelpe'smu" Leinipe "Ijje'mu" Ivum Stiintibke
+		"Si'kseinu" "Sy'tsemu" Tuti "Evit'iinpu" Wulle" Wiu'mu" Zelle
+	}
+}
+
+tavrikan = {
+	graphical_culture = westerngfx
+
+	mavrolic = {
+		province = { local_build_cost = -0.1 }
+		primary = A10
+	}
+	dermalian = {
+		province = { trade_value_modifier = 0.1 }
+		primary = A11
+	}
+	pemrikan = {
+		province = { local_garrison_size = 0.25 }
+		primary = A12
+	}
+	kovremic = {
+		province = { local_unrest = -1 }
+		primary = A18
+	}
+	sedvarikan = {
+		province = { local_governing_cost = -0.1 }
+		primary = A19
+	}
+	romvodalian = {
+		province = { local_ship_cost = -0.1 }
+		primary = A21
+	}
+	nadralian = {
+		province = { ship_recruit_speed = -0.1 }
+		primary = A53
+	}
+	male_names = {
+		MaleName
+	}
+	female_names = {
+		FemaleName
+	}
+	dynasty_names = {
+		"DynastyName"
+	}
+}
+
+tiajusi = { # hmong
+	graphical_culture = westerngfx
+
+	muaji = {
+		province = { local_regiment_cost = -0.1 }
+		primary = A26
+	}
+	plai = {
+		province = { regiment_recruit_speed = -0.1 }
+		primary = A23
+	}
+	paseemi = {
+		province = { province_trade_power_modifier = 0.1 }
+		primary = A34
+	}
+	muagi = {
+		province = { local_hostile_attrition = 0.5 }
+		primary = A33
+	}
+	nyuji = {
+		province = { trade_goods_size_modifier = 0.05 }
+		primary = A25
+	}
+}
+
+azalian = { # basque
+	graphical_culture = westerngfx
+
+	itsan = {
+		province = { local_build_cost = -0.05 local_build_time = -0.05 }
+		primary = A29
+	}
+	nealdan = {
+		province = { local_prosperity_growth = 0.05 }
+		primary = A31
+	}
+}
+
+hceenainni = { # burmese
+	graphical_culture = westerngfx
+
+	tikekyanian = {
+		province = { land_forcelimit = 0.1 }
+		primary = A49 # CHANGE LATER
+	}
+	kyakaini = {
+		province = { local_manpower_modifier = 0.1 }
+		primary = A47 # CHANGE LATER
+	}
+}
+
+bhangan = { # hindi? why didnt i fucking write this down
+	graphical_culture = westerngfx
+
+	mati = {
+		province = { supply_limit_modifier = 0.25 }
+		primary = A39
+	}
+	labani = {
+		province = { local_ship_cost = -0.05 ship_recruit_speed = -0.05 }
+		primary = A38
+	}
+	bisanadi = {
+		province = { local_manpower_modifier = 0.05 local_defensiveness = 0.05 }
+		primary = A48
+	}
+	yodhani = {
+		province = { province_trade_power_modifier = 0.1 }
+		primary = A44
+	}
+	bhulegi = {
+		province = { local_hostile_attrition = 0.5 }
+		primary = A46
+	}
+}
+
+xurmayan = { # azerbaijani
+	graphical_culture = westerngfx
+
+	agasertan = {
+		province = { local_development_cost = -0.05 }
+		primary = A54
+	}
+	agayuman = {
+		province = { local_production_efficiency = 0.1 }
+		primary = A55
+	}
+	gobelundan = {
+		province = { local_defensiveness = 0.05 local_garrison_size = 0.15 }
+		primary = A56
+	}
+	qrovian = {
+		province = { local_tax_modifier = 0.1 }
+		primary = A57
+	}
+}

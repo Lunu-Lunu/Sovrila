@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A54
+controller = A54
+add_core = A54
+culture = agasertan
+religion = natures_aura
+capital = "Vahelim"
+trade_goods = salt
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 6

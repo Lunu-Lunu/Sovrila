@@ -1,0 +1,14 @@
+# Placeholder
+
+discovered_by = western
+owner = A42
+controller = A42
+add_core = A42
+culture = labani
+religion = natures_aura
+capital = "placeholder"
+trade_goods = paper
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 6
