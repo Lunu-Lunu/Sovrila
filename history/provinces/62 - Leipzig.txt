@@ -12,3 +12,4 @@ hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 6
+center_of_trade = 2
