@@ -27,7 +27,7 @@ severe_winter = {
 }
 
 impassable = {
-	
+	460 536 712
 }
 
 mild_monsoon = {
