@@ -1076,7 +1076,7 @@ spiritualist_group = {
 	}
 	void_spiritualist = {
 		color = { 50 25 50 }
-		icon = 14
+		icon = 15
 
 		allowed_conversion = {
 
