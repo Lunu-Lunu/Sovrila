@@ -70,6 +70,7 @@ nether_portal_1 = {
 		province_modifiers = {
 			trade_goods_size = 1.5
 			fort_level = 1
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -100,6 +101,7 @@ nether_portal_1 = {
 		province_modifiers = {
 			trade_goods_size = 3
 			fort_level = 2
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -133,6 +135,7 @@ nether_portal_1 = {
 		province_modifiers = {
 			trade_goods_size = 5
 			fort_level = 3
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -222,6 +225,7 @@ nether_portal_2 = {
 		province_modifiers = {
 			trade_goods_size = 1.5
 			fort_level = 1
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -252,6 +256,7 @@ nether_portal_2 = {
 		province_modifiers = {
 			trade_goods_size = 3
 			fort_level = 2
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -285,6 +290,7 @@ nether_portal_2 = {
 		province_modifiers = {
 			trade_goods_size = 5
 			fort_level = 3
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -374,6 +380,7 @@ nether_portal_3 = {
 		province_modifiers = {
 			trade_goods_size = 1.5
 			fort_level = 1
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -404,6 +411,7 @@ nether_portal_3 = {
 		province_modifiers = {
 			trade_goods_size = 3
 			fort_level = 2
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -437,6 +445,7 @@ nether_portal_3 = {
 		province_modifiers = {
 			trade_goods_size = 5
 			fort_level = 3
+			local_missionary_strength = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
