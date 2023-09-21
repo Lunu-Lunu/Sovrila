@@ -2,6 +2,8 @@
 
 tadimor_superregion = {
 	dermali_region
+	devarnovon_region
+	tumur_region
 }
 
 dragons_head_superregion = {

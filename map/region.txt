@@ -17,6 +17,37 @@ dermali_region = {
 		sedvarika_area
 		madlavon_area
 		divmolon_area
+		garavlem_area
+		tuvrem_area
+		giradvon_area
+		romvod_area
+	}
+}
+devarnovon_region = {
+	areas = {
+		vodrika_area
+		devarnovon_area
+		daranika_area
+		pemrika_area
+		metsev_area
+		tsenplai_area
+	}
+}
+tumur_region = {
+	areas = {
+		tupe_area
+		tuvel_area
+		bului_area
+		inibe_area
+		ziluim_area
+		tep_area
+		tatuzi_area
+		tainbiinu_area
+		viuli_area
+		multu_area
+		siinu_area
+		tevuly_area
+		evlie_area
 	}
 }
 

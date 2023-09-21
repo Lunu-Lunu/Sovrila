@@ -729,3 +729,99 @@ province;red;green;blue;x;x
 728;104;80;192;Sanxing;x
 729;232;82;255;Wusuli;x
 730;104;84;0;Haixi;x
+731;232;86;64;Ninguta;x
+732;104;88;128;Hamheung;x
+733;232;90;192;Hwangju;x
+734;104;92;255;Gangwon;x
+735;153;134;173;Hanseong;x
+736;217;164;164;Sangju;x
+737;233;98;128;Jeonju;x
+738;105;100;192;Taiwan;x
+739;233;102;255;Kashgar;x
+740;105;104;0;Chanderi;x
+741;233;106;64;Cumana;x
+742;106;108;128;Guayana;x
+743;234;110;192;Essequibo;x
+744;106;112;255;Demerara;x
+745;234;114;0;Paramaribo;x
+746;106;116;64;Cayenne;x
+747;234;118;128;Tucujulandia;x
+748;106;120;192;Grao Para;x
+749;235;122;255;Maranhao;x
+750;107;124;0;Crato;x
+751;235;126;64;Ceara;x
+752;107;128;128;Oeiras;x
+753;235;130;192;Rio Grande;x
+754;107;132;255;Itamaraca;x
+755;235;134;0;Pernambuco;x
+756;108;136;64;Bahia;x
+757;236;138;128;Ilheus;x
+758;108;140;192;Goias;x
+759;236;142;255;Diamantina;x
+760;108;144;0;Porto Seguro;x
+761;236;146;64;Espirito Santo;x
+762;108;148;128;Sao Tome;x
+763;237;150;192;Rio de Janeiro;x
+764;109;152;255;Santo Amaro;x
+765;237;154;0;Santa Luzia;x
+766;109;156;64;Sao Vicente;x
+767;237;158;128;Wystruc;x
+768;109;32;192;Guayra;x
+769;237;34;255;Curitiba;x
+770;110;36;0;Braslaw;x
+771;238;38;64;Vitebsk;x
+772;110;40;128;Uruguay;x
+773;238;42;192;Banda Oriente;x
+774;110;44;255;Al Junaynah;x
+775;238;46;0;Asuncion;x
+776;110;48;64;Itenines;x
+777;239;50;128;Parana;x
+778;111;52;192;Rio de la Plata;x
+779;239;54;255;Tandil;x
+780;111;56;0;Candelaria Patagones;x
+781;239;58;64;Puerto Desaedo;x
+782;111;60;128;Tierra del Fuego;x
+783;239;62;192;Alacaluf;x
+784;112;64;255;Huillimapu;x
+785;240;66;0;Pehuenmapu;x
+786;112;68;64;Carmen Patagones;x
+787;240;70;128;Pincunmapu;x
+788;112;72;192;Angoche;x
+789;240;74;255;Mtetwa;x
+790;112;76;0;Chaco Austral;x
+791;241;78;64;Catamarca;x
+792;113;80;128;Copiapo;x
+793;241;82;192;Atacama;x
+794;113;84;255;Jujuy;x
+795;241;86;0;Potosi;x
+796;113;88;64;Arica;x
+797;241;90;128;Oruro;x
+798;215;191;212;Mbwila;x
+799;242;94;255;Chaco Boreal;x
+800;114;96;0;Chiquitos;x
+801;242;98;64;Caranga;x
+802;114;100;128;Chuquiabo;x
+803;242;102;192;Moxos;x
+804;114;104;255;Puno;x
+805;243;106;0;Arequipa;x
+806;115;108;64;Nazca;x
+807;243;110;128;Huamanga;x
+808;115;112;192;Cuzco;x
+809;243;114;255;Lima;x
+810;115;116;0;Huancavelica;x
+811;243;118;64;Tarma;x
+812;116;120;128;Chanchan;x
+813;244;122;192;Cajamarca;x
+814;116;124;255;Huanuco;x
+815;244;126;0;Maynas;x
+816;116;128;64;Tumbes;x
+817;244;130;128;Cuenca;x
+818;116;132;192;Canelos;x
+819;245;134;255;Guayaquil;x
+820;117;136;0;Quito;x
+821;245;138;64;Quijos;x
+822;117;140;128;Caqueta;x
+823;245;142;192;Cauca;x
+824;117;144;255;Mariquita;x
+825;245;146;0;Bogota;x
+826;118;148;64;Choco;x
