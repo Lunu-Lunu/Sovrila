@@ -1,103 +1,103 @@
 ﻿l_english:
- PROV1:0 "Stockholm"
- PROV2:0 "Östergötland"
- PROV3:1 "Kalmar"
- PROV4:0 "Bergslagen"
- PROV5:0 "Värmland"
- PROV6:1 "Lund"
- PROV7:1 "Skaraborg"
- PROV8:0 "Dalaskogen"
- PROV9:0 "Hälsingland"
- PROV10:0 "Jämtland"
- PROV11:0 "Västerbotten"
- PROV12:0 "Sjælland"
- PROV13:0 "Slesvig"
- PROV14:0 "Fyn"
- PROV15:1 "Vestjylland"
- PROV16:0 "Bohuslän"
- PROV17:0 "Akershus"
- PROV18:0 "Lappland"
- PROV19:0 "Österbotten"
- PROV20:0 "Trøndelag"
- PROV21:0 "Hålogaland"
- PROV22:1 "Opplanda"
- PROV23:1 "Bergenhus"
- PROV24:0 "Stavanger"
- PROV25:0 "Gotland"
- PROV26:0 "Halland"
- PROV27:0 "Åbo"
- PROV28:0 "Nyland"
- PROV29:0 "Tavastland"
- PROV30:0 "Viborg"
- PROV31:0 "Savolax"
- PROV32:0 "Kexholm"
- PROV33:0 "Neva"
- PROV34:0 "Ingermanland"
- PROV35:0 "Giradvon"
- PROV36:0 "Reval"
- PROV37:0 "Livland"
- PROV38:0 "Riga"
- PROV39:0 "Goldingen"
- PROV40:0 "Memel"
- PROV41:0 "Königsberg"
- PROV42:0 "Warmia"
- PROV43:0 "Danzig"
- PROV44:0 "Hamburg"
- PROV45:0 "Lübeck"
- PROV46:0 "Rostock"
- PROV47:0 "Stralsund"
- PROV48:0 "Kolberg"
- PROV49:0 "Neumark"
- PROV50:0 "Berlin"
- PROV51:0 "Ruppin"
- PROV52:0 "Magdeburg"
- PROV53:0 "Lüneburg"
- PROV54:0 "Stade"
- PROV55:0 "Oldenburg"
- PROV56:0 "Osnabrück"
- PROV57:0 "Brunswick"
- PROV58:0 "Anhalt"
- PROV59:0 "Wittenberg"
- PROV60:0 "Bautzen"
- PROV61:0 "Dresden"
- PROV62:0 "Lavrina"
- PROV63:1 "Erfurt"
- PROV64:0 "Landshut"
- PROV65:0 "München"
- PROV66:0 "Bamberg"
- PROV67:0 "Nürnberg"
- PROV68:0 "Memmingen"
- PROV69:1 "Dermali"
- PROV70:1 "Dovrem"
- PROV71:0 "Padvon"
- PROV72:0 "Breisgau"
- PROV73:0 "Inntal"
- PROV74:0 "Savrika"
- PROV75:1 "Gisaravrika"
- PROV76:0 "Salzburg"
- PROV77:0 "Heidelberg"
- PROV78:0 "Mainz"
- PROV79:0 "Würzburg"
- PROV80:0 "Trier"
- PROV81:1 "Oberhessen"
- PROV82:0 "Westfalen"
- PROV83:0 "Nassau"
- PROV84:0 "Tep"
- PROV85:0 "Kilin"
- PROV86:0 "Muinste"
- PROV87:0 "Bului"
- PROV88:0 "Ta'tii"
- PROV89:0 "Jibu'mii"
- PROV90:1 "Tupe"
- PROV91:0 "Uinut"
- PROV92:1 "Tuvel"
- PROV93:0 "Liipe"
- PROV94:0 "Lusemtup"
- PROV95:0 "Temu"
- PROV96:0 "Ziluim"
- PROV97:1 "Tamste'mum"
- PROV98:0 "Ut'ett"
- PROV99:0 "Pele"
+ PROV1:0 
+ PROV2:0 
+ PROV3:1 
+ PROV4:0 
+ PROV5:0 
+ PROV6:1 
+ PROV7:1 
+ PROV8:0 
+ PROV9:0 
+ PROV10:0 
+ PROV11:0 
+ PROV12:0 
+ PROV13:0 
+ PROV14:0 
+ PROV15:1 
+ PROV16:0 
+ PROV17:0 
+ PROV18:0 
+ PROV19:0 
+ PROV20:0 
+ PROV21:0 
+ PROV22:1 
+ PROV23:1 
+ PROV24:0 
+ PROV25:0 
+ PROV26:0 
+ PROV27:0 
+ PROV28:0 
+ PROV29:0 
+ PROV30:0 
+ PROV31:0 
+ PROV32:0 
+ PROV33:0 
+ PROV34:0 
+ PROV35:0 
+ PROV36:0 
+ PROV37:0 
+ PROV38:0 
+ PROV39:0 
+ PROV40:0 
+ PROV41:0 
+ PROV42:0 
+ PROV43:0 
+ PROV44:0 
+ PROV45:0 
+ PROV46:0 
+ PROV47:0 
+ PROV48:0 
+ PROV49:0 
+ PROV50:0 
+ PROV51:0 
+ PROV52:0 
+ PROV53:0 
+ PROV54:0 
+ PROV55:0 
+ PROV56:0 
+ PROV57:0 
+ PROV58:0 
+ PROV59:0 
+ PROV60:0 
+ PROV61:0 
+ PROV62:0 
+ PROV63:1 
+ PROV64:0 
+ PROV65:0 
+ PROV66:0 
+ PROV67:0 
+ PROV68:0 
+ PROV69:1 
+ PROV70:1 
+ PROV71:0 
+ PROV72:0 
+ PROV73:0 
+ PROV74:0 
+ PROV75:1 
+ PROV76:0 
+ PROV77:0 
+ PROV78:0 
+ PROV79:0 
+ PROV80:0 
+ PROV81:1 
+ PROV82:0 
+ PROV83:0 
+ PROV84:0 
+ PROV85:0 
+ PROV86:0 
+ PROV87:0 
+ PROV88:0 
+ PROV89:0 
+ PROV90:1 
+ PROV91:0 
+ PROV92:1 
+ PROV93:0 
+ PROV94:0 
+ PROV95:0 
+ PROV96:0 
+ PROV97:1 
+ PROV98:0 
+ PROV99:0 
  PROV100:0 "Viisluin"
  PROV101:0 "Peiniu"
  PROV102:0 "Inibe"
